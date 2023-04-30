@@ -1,0 +1,30 @@
+.keyboard{
+	display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.keyboard-textarea{
+	margin: 0 auto;
+   width: 900px;
+   height: 150px;
+}
+
+.wrap-keyboard{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 3px;
+   width: 909px;
+   background: #004134;
+   padding: 3px;
+}
+
+.btn{
+   width: 54px;
+   height: 54px;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 5px;
+   color: #fff;
+}
